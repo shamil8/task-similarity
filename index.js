@@ -1,13 +1,21 @@
-import { taskSimilarity } from './logic/taskAlgorithm.js'
+import {
+    taskRatingsWithProbability,
+    findTaskByIndex,
+    SYMBOL_TASK_INDEX
+} from './logic/taskAlgorithm.js'
 
-// function for adaptation probability
-const taskRatingsWithProbability = (text, PV = 0.5) => {
-    let pv = PV
-    // TODO:: add recursive here
-    const taskRatings = taskSimilarity(text, pv)
+const {ratings, bestMatchIndex} = taskRatingsWithProbability('Пересчитать расходы', .5, .3, 100)
 
-    return taskRatings
-}
+const tasks = []
 
-const taskRatings = taskRatingsWithProbability('Пересчитать расходы')
-console.log(taskRatings)
+ratings.forEach(rating => {
+    const taskIndex = rating.target.lastIndexOf(SYMBOL_TASK_INDEX)
+
+    taskIndex && tasks.push({ rating: rating.rating, ...findTaskByIndex(rating.target.slice(taskIndex + 1)) })
+})
+
+console.log('chose tasks', tasks)
+
+const task = findTaskByIndex(bestMatchIndex)
+
+console.log('bestMatch', task)
