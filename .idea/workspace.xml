@@ -29,6 +29,11 @@
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\initiator\drp1\logic" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="index.js" type="NodeJSConfigurationType" nameIsGenerated="true" path-to-js-file="index.js" working-dir="$PROJECT_DIR$">
       <method v="2" />
@@ -42,7 +47,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1606360739418</updated>
-      <workItem from="1606360740726" duration="2698000" />
+      <workItem from="1606360740726" duration="6619000" />
     </task>
     <servers />
   </component>
@@ -66,21 +71,25 @@
       <screen x="62" y="0" width="1304" height="768" />
     </state>
     <state x="494" y="139" key="FileChooserDialogImpl/62.0.1304.768@62.0.1304.768" timestamp="1606360922602" />
-    <state width="1261" height="192" key="GridCell.Tab.0.bottom" timestamp="1606363788151">
+    <state width="1261" height="302" key="GridCell.Tab.0.bottom" timestamp="1606367734153">
       <screen x="62" y="0" width="1304" height="768" />
     </state>
-    <state width="1261" height="192" key="GridCell.Tab.0.bottom/62.0.1304.768@62.0.1304.768" timestamp="1606363788151" />
-    <state width="1261" height="192" key="GridCell.Tab.0.center" timestamp="1606363788150">
+    <state width="1261" height="302" key="GridCell.Tab.0.bottom/62.0.1304.768@62.0.1304.768" timestamp="1606367734153" />
+    <state width="1261" height="302" key="GridCell.Tab.0.center" timestamp="1606367734152">
       <screen x="62" y="0" width="1304" height="768" />
     </state>
-    <state width="1261" height="192" key="GridCell.Tab.0.center/62.0.1304.768@62.0.1304.768" timestamp="1606363788150" />
-    <state width="1261" height="192" key="GridCell.Tab.0.left" timestamp="1606363788149">
+    <state width="1261" height="302" key="GridCell.Tab.0.center/62.0.1304.768@62.0.1304.768" timestamp="1606367734152" />
+    <state width="1261" height="302" key="GridCell.Tab.0.left" timestamp="1606367734152">
       <screen x="62" y="0" width="1304" height="768" />
     </state>
-    <state width="1261" height="192" key="GridCell.Tab.0.left/62.0.1304.768@62.0.1304.768" timestamp="1606363788149" />
-    <state width="1261" height="192" key="GridCell.Tab.0.right" timestamp="1606363788150">
+    <state width="1261" height="302" key="GridCell.Tab.0.left/62.0.1304.768@62.0.1304.768" timestamp="1606367734152" />
+    <state width="1261" height="302" key="GridCell.Tab.0.right" timestamp="1606367734152">
       <screen x="62" y="0" width="1304" height="768" />
     </state>
-    <state width="1261" height="192" key="GridCell.Tab.0.right/62.0.1304.768@62.0.1304.768" timestamp="1606363788150" />
+    <state width="1261" height="302" key="GridCell.Tab.0.right/62.0.1304.768@62.0.1304.768" timestamp="1606367734152" />
+    <state x="370" y="172" key="run.anything.popup" timestamp="1606364800112">
+      <screen x="62" y="0" width="1304" height="768" />
+    </state>
+    <state x="370" y="172" key="run.anything.popup/62.0.1304.768@62.0.1304.768" timestamp="1606364800112" />
   </component>
 </project>

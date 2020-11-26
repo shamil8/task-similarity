@@ -1,3 +1,13 @@
-import { tasks } from './data/tasks.js'
+import { taskSimilarity } from './logic/taskAlgorithm.js'
 
-console.log(tasks[0].name, tasks[1].name)
+// function for adaptation probability
+const taskRatingsWithProbability = (text, PV = 0.5) => {
+    let pv = PV
+    // TODO:: add recursive here
+    const taskRatings = taskSimilarity(text, pv)
+
+    return taskRatings
+}
+
+const taskRatings = taskRatingsWithProbability('Пересчитать расходы')
+console.log(taskRatings)
