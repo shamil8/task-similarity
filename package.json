@@ -1,0 +1,29 @@
+{
+  "name": "task-similarity",
+  "version": "0.0.1",
+  "description": "Finds degree of similarity between two tasks.",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shamil8/task-similarity.git"
+  },
+  "keywords": [
+    "js",
+    "task",
+    "similarity",
+    "string"
+  ],
+  "author": "Shamil Kurbonov",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shamil8/task-similarity/issues"
+  },
+  "homepage": "https://github.com/shamil8/task-similarity#readme",
+  "dependencies": {
+    "string-similarity": "^4.0.3"
+  }
+}
