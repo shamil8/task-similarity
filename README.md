@@ -34,5 +34,5 @@ Returns a fraction between 0 and 1, which indicates the degree of similarity bet
 
 # Математическое ожидание, дисперсия и среднеквадратичесвое оклонение случайной величины для задачи
 <p align="center">
-    <img src="https://raw.githubusercontent.com/shamil8/task-similarity/master/VarX.jpg?sanitize=true" alt="VarX image">
+    <img src="https://raw.githubusercontent.com/shamil8/task-similarity/master/static/VarX.jpg" alt="VarX image">
 </p>
