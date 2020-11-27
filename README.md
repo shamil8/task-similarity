@@ -1,3 +1,5 @@
+![Docker Image CI](https://github.com/shamil8/task-similarity/workflows/Docker%20Image%20CI/badge.svg)
+
 # Similarity between two tasks
 
 In your code:
