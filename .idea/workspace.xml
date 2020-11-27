@@ -1,8 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="691fcdd4-a080-463f-ad68-7217fbbf3ee2" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/logic/math.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -55,12 +75,25 @@
       <updated>1606360739418</updated>
       <workItem from="1606360740726" duration="6812000" />
       <workItem from="1606369656426" duration="6977000" />
-      <workItem from="1606384227590" duration="1173000" />
+      <workItem from="1606384227590" duration="12042000" />
+      <workItem from="1606465560230" duration="809000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state x="168" y="39" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1606363770313">
@@ -79,25 +112,25 @@
       <screen x="62" y="0" width="1304" height="768" />
     </state>
     <state x="494" y="139" key="FileChooserDialogImpl/62.0.1304.768@62.0.1304.768" timestamp="1606360922602" />
-    <state width="1261" height="482" key="GridCell.Tab.0.bottom" timestamp="1606385369767">
+    <state width="1261" height="252" key="GridCell.Tab.0.bottom" timestamp="1606466377425">
       <screen x="62" y="0" width="1304" height="768" />
     </state>
-    <state width="1261" height="482" key="GridCell.Tab.0.bottom/62.0.1304.768@62.0.1304.768" timestamp="1606385369767" />
-    <state width="1261" height="482" key="GridCell.Tab.0.center" timestamp="1606385369767">
+    <state width="1261" height="252" key="GridCell.Tab.0.bottom/62.0.1304.768@62.0.1304.768" timestamp="1606466377425" />
+    <state width="1261" height="252" key="GridCell.Tab.0.center" timestamp="1606466377424">
       <screen x="62" y="0" width="1304" height="768" />
     </state>
-    <state width="1261" height="482" key="GridCell.Tab.0.center/62.0.1304.768@62.0.1304.768" timestamp="1606385369767" />
-    <state width="1261" height="482" key="GridCell.Tab.0.left" timestamp="1606385369766">
+    <state width="1261" height="252" key="GridCell.Tab.0.center/62.0.1304.768@62.0.1304.768" timestamp="1606466377424" />
+    <state width="1261" height="252" key="GridCell.Tab.0.left" timestamp="1606466377423">
       <screen x="62" y="0" width="1304" height="768" />
     </state>
-    <state width="1261" height="482" key="GridCell.Tab.0.left/62.0.1304.768@62.0.1304.768" timestamp="1606385369766" />
-    <state width="1261" height="482" key="GridCell.Tab.0.right" timestamp="1606385369767">
+    <state width="1261" height="252" key="GridCell.Tab.0.left/62.0.1304.768@62.0.1304.768" timestamp="1606466377423" />
+    <state width="1261" height="252" key="GridCell.Tab.0.right" timestamp="1606466377424">
       <screen x="62" y="0" width="1304" height="768" />
     </state>
-    <state width="1261" height="482" key="GridCell.Tab.0.right/62.0.1304.768@62.0.1304.768" timestamp="1606385369767" />
-    <state x="370" y="172" key="run.anything.popup" timestamp="1606364800112">
+    <state width="1261" height="252" key="GridCell.Tab.0.right/62.0.1304.768@62.0.1304.768" timestamp="1606466377424" />
+    <state x="370" y="172" key="run.anything.popup" timestamp="1606403743884">
       <screen x="62" y="0" width="1304" height="768" />
     </state>
-    <state x="370" y="172" key="run.anything.popup/62.0.1304.768@62.0.1304.768" timestamp="1606364800112" />
+    <state x="370" y="172" key="run.anything.popup/62.0.1304.768@62.0.1304.768" timestamp="1606403743884" />
   </component>
 </project>
