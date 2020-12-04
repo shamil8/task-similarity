@@ -1,4 +1,4 @@
-// import { MathArray } from './logic/math.js'
+import { secondsToDhms } from './logic/math.js'
 import { findTaskByIndex, SYMBOL_TASK_INDEX, taskRatingsWithProbability } from './logic/taskAlgorithm.js'
 
 const data = {
@@ -14,9 +14,8 @@ const { ratings, bestMatchIndex } = taskRatingsWithProbability(data.name, .5, .3
 ratings.forEach(rating => {
     const taskIndex = rating.target.lastIndexOf(SYMBOL_TASK_INDEX)
     const task = findTaskByIndex(rating.target.slice(taskIndex + 1))
-    const diffTime = Math.abs(new Date(task.end_at) - new Date(task.start_at))
 
-    task.days =  Math.ceil(diffTime / (1000 * 60 * 60 * 24)) // TODO:: check accuracy without ceil
+    task.times = Math.abs(new Date(task.end_at) - new Date(task.start_at)) / 1000
     task.rating = rating.rating
 
     // owner score
@@ -50,21 +49,21 @@ const pvSum = tasks.sum('rating')
 console.log('PVsum', pvSum)
 
 // Нормализация данных для мат. ожидания
-const statTasks = tasks.map(task => ({ x: task.days, p: task.rating / pvSum }))
+const statTasks = tasks.map(task => ({ x: task.times, p: task.rating / pvSum }))
 
 console.log('statTasks', statTasks)
 
 // Математическое ожидание случайной величины
 const Mx = statTasks.map(task => task.x * task.p).reduce((a, b) => a + b, 0)
 
-console.log('Mx', Mx)
+console.log('Mx = ', secondsToDhms(Mx))
 
 // Дисперсия случайной величины
 const Dx = statTasks.map(task => task.x ** 2 * task.p).reduce((a, b) => a + b, 0) - Mx ** 2
 
-console.log('Dx', Dx)
+console.log('Dx = ', secondsToDhms(Dx))  // TODO:: it's very strange!
 
 // Среднеквадратичесвое оклонение случайной величины для задачи
 
 const Gx = Math.sqrt(Dx)
-console.log('Gx', Gx)
+console.log('Среднеквадратичесвое оклонение случайной величины, Gx = ', secondsToDhms(Gx))
